@@ -1,0 +1,50 @@
+/* Pour ordinateurs */
+@media only screen and (min-width: 1200px) {
+  body {
+    background: url("../images/background-site.png");
+    background-repeat: round;
+    z-index: 0;
+  }
+  header {
+    background: url("../images/banner.jpg");
+    height: 300px;
+    width: 80%;
+    z-index: 3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .titre {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 800%;
+    font-family: 'Molle', cursive;
+    position: relative;
+    color: darkorange;
+    -webkit-transform: translateY(40%);
+        -ms-transform: translateY(40%);
+            transform: translateY(40%);
+  }
+  .navbar-custom {
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #3cad22 0%, #ffffff 51%, #ff4444 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#3cad22), color-stop(51%, #ffffff), to(#ff4444));
+    background: -o-linear-gradient(left, #3cad22 0%, #ffffff 51%, #ff4444 100%);
+    background: linear-gradient(to right, #3cad22 0%, #ffffff 51%, #ff4444 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cad22', endColorstr='#ff4444',GradientType=1 );
+    /* IE6-9 */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar-brand {
+    font-weight: bold;
+  }
+  .jumbotron {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
