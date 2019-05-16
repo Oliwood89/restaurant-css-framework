@@ -1,0 +1,262 @@
+/* COMPUTERS */
+
+@media only screen and (min-width: 800px) {
+
+body {
+        background: url("../images/background-site1.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: 0;
+    }
+header {
+    background: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80%;
+    z-index: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+}
+.titre {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 600%;
+    font-family: 'Molle', cursive;
+    position: relative;
+    color: darkorange;
+    transform: translateY(40%);
+    z-index: 3;
+    text-shadow: 2px 2px 2px black;
+}
+.navbar-custom {
+    background: -moz-linear-gradient(left, #3cad22 0%, #ffffff 51%, #ff4444 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #3cad22 0%,#ffffff 51%,#ff4444 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #3cad22 0%,#ffffff 51%,#ff4444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cad22', endColorstr='#ff4444',GradientType=1 ); /* IE6-9 */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.navbar-brand {
+    font-weight: bold;
+}
+.jumbotron-xl {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    background-color: rgba(0,0,0,0.1);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-image: linear-gradient(to bottom, rgba(66, 66, 66, 0.61), rgba(2, 2, 2, 0.418));
+    color: white;
+
+}
+.card-g {
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+.card-d {
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+a {
+    color: #e24f22;
+}
+.container {
+    margin-top: 4%;
+}
+h1 {
+    margin-bottom: 4%;
+}
+.list-group-item {
+    padding: 2%;
+}
+    }
+    
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/* TABLETS */
+
+@media only screen and (min-width: 500px) {
+
+body {
+        background: url("../images/background-site1.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: 0;
+    }
+    header {
+        background: url("../images/banner.jpg");
+        background-repeat: no-repeat;
+        height: 50%;
+        width: 80%;
+        z-index: 3;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 8%;
+    }
+
+/* Titre Pizzai'Oli */
+    .titre {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 400%;
+        font-family: 'Molle', cursive;
+        position: relative;
+        color: darkorange;
+        transform: translateY(40%);
+        text-shadow: 2px 2px 2px black;
+    }
+    .navbar-custom {
+        background: -moz-linear-gradient(left, #3cad22 0%, #ffffff 51%, #ff4444 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #3cad22 0%,#ffffff 51%,#ff4444 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #3cad22 0%,#ffffff 51%,#ff4444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cad22', endColorstr='#ff4444',GradientType=1 ); /* IE6-9 */
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    .navbar-brand {
+        font-weight: bold;
+    }
+    .jumbotron-xl {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+        background-color: rgba(0,0,0,0.1);
+        padding-bottom: 5%;
+        padding-top: 5%;
+        background-image: linear-gradient(to bottom, rgba(66, 66, 66, 0.61), rgba(2, 2, 2, 0.418));
+        color: white;
+
+    }
+    .card-g {
+        border: 1px solid grey;
+        border-radius: 4px;
+        margin-top: 5%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 7%;
+    }
+    .card-d {
+        border: 1px solid grey;
+        border-radius: 4px;
+        margin-top: 5%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 7%;
+    }
+    a {
+        color: #e24f22;
+    }
+    .list-group-item {
+        padding: 2%;
+}
+}
+    
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+/* SMARTPHONES */
+
+@media only screen and (max-width: 500px) {
+    
+body {
+    background: url("../images/background-site1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
+header {
+    background: url("../images/banner.jpg");
+    height: auto;
+    width: 80%;
+    z-index: 3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 6%;
+}
+
+/* Titre Pizzai'Oli */
+.titre {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 200%;
+    font-family: 'Molle', cursive;
+    position: relative;
+    color: darkorange;
+    transform: translateY(40%);
+    text-shadow: 2px 2px 2px black;
+}
+.navbar-custom {
+    background: -moz-linear-gradient(left, #3cad22 0%, #ffffff 51%, #ff4444 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #3cad22 0%,#ffffff 51%,#ff4444 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #3cad22 0%,#ffffff 51%,#ff4444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cad22', endColorstr='#ff4444',GradientType=1 ); /* IE6-9 */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.navbar-brand {
+    font-weight: bold;
+
+}
+.jumbotron-xs {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(66, 66, 66), rgba(2, 2, 2, 0.418));
+
+}
+
+.card-g {
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2%;
+}
+
+.card-d {
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 8%;
+}
+
+a {
+    color: #e24f22;
+}
+.list-group-item {
+padding: 2%;
+}
+h1 {
+margin-bottom: 6%;
+} 
+}
