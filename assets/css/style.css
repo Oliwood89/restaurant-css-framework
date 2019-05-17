@@ -21,7 +21,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 600%;
+    font-size: 800%;
     font-family: 'Molle', cursive;
     position: relative;
     color: darkorange;
@@ -48,7 +48,7 @@
   .navbar-brand {
     font-weight: bold;
   }
-  .jumbotron-xl {
+  .jumbotron-fluid {
     display: block;
     width: 80%;
     margin-left: auto;
@@ -62,6 +62,13 @@
     background-image: -o-linear-gradient(top, rgba(66, 66, 66, 0.61), rgba(2, 2, 2, 0.418));
     background-image: linear-gradient(to bottom, rgba(66, 66, 66, 0.61), rgba(2, 2, 2, 0.418));
     color: white;
+  }
+  .jumbotron-fluid .lead {
+    color: black;
+  }
+  .jumbotron-fluid h1 {
+    color: black;
+    font-weight: bold;
   }
   .card-g {
     border: 1px solid grey;
