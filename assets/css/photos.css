@@ -21,7 +21,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 600%;
+    font-size: 800%;
     font-family: 'Molle', cursive;
     position: relative;
     color: darkorange;
@@ -48,53 +48,8 @@
   .navbar-brand {
     font-weight: bold;
   }
-  .jumbotron-xl {
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3%;
-    background-color: rgba(0, 0, 0, 0.1);
-    padding-bottom: 100px;
-    padding-top: 100px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(66, 66, 66, 0.61)), to(rgba(2, 2, 2, 0.418)));
-    background-image: -webkit-linear-gradient(top, rgba(66, 66, 66, 0.61), rgba(2, 2, 2, 0.418));
-    background-image: -o-linear-gradient(top, rgba(66, 66, 66, 0.61), rgba(2, 2, 2, 0.418));
-    background-image: linear-gradient(to bottom, rgba(66, 66, 66, 0.61), rgba(2, 2, 2, 0.418));
-    color: white;
-  }
-  .card-g {
-    border: 1px solid grey;
-    border-radius: 4px;
-    margin-top: 50px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 40px;
-  }
-  .card-d {
-    border: 1px solid grey;
-    border-radius: 4px;
-    margin-top: 50px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 40px;
-  }
   a {
     color: #e24f22;
-  }
-  .container {
-    margin-top: 4%;
-  }
-  h1 {
-    margin-bottom: 4%;
-  }
-  .list-group-item {
-    padding-top: 3%;
-    padding-bottom: 3%;
-  }
-  h2 {
-    padding-top: 2%;
-    padding-bottom: 2%;
   }
   footer {
     padding-bottom: 1%;
@@ -115,6 +70,10 @@
     font-weight: bolder;
     color: black;
     text-decoration: none;
+  }
+  .container {
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 }
 
@@ -138,7 +97,6 @@
     margin-right: auto;
     padding-bottom: 8%;
   }
-  /* Titre Pizzai'Oli */
   .titre {
     text-align: center;
     margin-left: auto;
@@ -169,53 +127,8 @@
   .navbar-brand {
     font-weight: bold;
   }
-  .jumbotron-xl {
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3%;
-    background-color: rgba(0, 0, 0, 0.1);
-    padding-bottom: 5%;
-    padding-top: 5%;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(66, 66, 66, 0.61)), to(rgba(2, 2, 2, 0.418)));
-    background-image: -webkit-linear-gradient(top, rgba(66, 66, 66, 0.61), rgba(2, 2, 2, 0.418));
-    background-image: -o-linear-gradient(top, rgba(66, 66, 66, 0.61), rgba(2, 2, 2, 0.418));
-    background-image: linear-gradient(to bottom, rgba(66, 66, 66, 0.61), rgba(2, 2, 2, 0.418));
-    color: white;
-  }
-  .card-g {
-    border: 1px solid grey;
-    border-radius: 4px;
-    margin-top: 5%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 7%;
-  }
-  .card-d {
-    border: 1px solid grey;
-    border-radius: 4px;
-    margin-top: 5%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 7%;
-  }
   a {
     color: #e24f22;
-  }
-  .container {
-    margin-top: 4%;
-  }
-  h1 {
-    margin-bottom: 4%;
-  }
-  .list-group-item {
-    padding-top: 3%;
-    padding-bottom: 3%;
-  }
-  h2 {
-    padding-top: 2%;
-    padding-bottom: 2%;
   }
   footer {
     padding-bottom: 1%;
@@ -247,6 +160,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: 0;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   header {
     background: url("../images/banner.jpg");
@@ -289,52 +204,8 @@
   .navbar-brand {
     font-weight: bold;
   }
-  .jumbotron-xs {
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    color: white;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#424242), to(rgba(2, 2, 2, 0.418)));
-    background-image: -webkit-linear-gradient(top, #424242, rgba(2, 2, 2, 0.418));
-    background-image: -o-linear-gradient(top, #424242, rgba(2, 2, 2, 0.418));
-    background-image: linear-gradient(to bottom, #424242, rgba(2, 2, 2, 0.418));
-  }
-  .card-g {
-    border: 1px solid grey;
-    border-radius: 4px;
-    margin-top: 10%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 2%;
-  }
-  .card-d {
-    border: 1px solid grey;
-    border-radius: 4px;
-    margin-top: 3%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 8%;
-  }
   a {
     color: #e24f22;
-  }
-  .container {
-    margin-top: 4%;
-  }
-  h1 {
-    margin-bottom: 4%;
-  }
-  .list-group-item {
-    padding-top: 3%;
-    padding-bottom: 3%;
-  }
-  h2 {
-    padding-top: 2%;
-    padding-bottom: 2%;
   }
   footer {
     padding-bottom: 1%;

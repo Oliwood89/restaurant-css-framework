@@ -1,47 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Les photos</title>
-    <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Les photos</title>
+  <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link href="assets/css/photos.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-        <header>
-            <div class=titre>Pizzai'Oli</div>
-        </header>
-        <main>
-            <nav class="navbar navbar-expand-lg navbar-custom bg-custom">
-                <a class="navbar-brand">Pizzai'Oli</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html" target="_blank">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="carte.html" target="_blank">Carte</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="photos.html" target="_blank">Photos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="restaurants.html" target="_blank">Restaurants</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html" target="_blank">Contact</a>
-                    </li>
-                    </ul>
-                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fab fa-facebook-square"></i>Like</button>
+  <header>
+    <div class=titre>Pizzai'Oli</div>
+  </header>
+  <main>
+    <nav class="navbar navbar-expand-lg navbar-custom bg-custom">
+      <a class="navbar-brand">Pizzai'Oli</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html" target="_blank">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carte.html" target="_blank">Carte</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="photos.html">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="restaurants.html" target="_blank">Restaurants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+          </li>
+        </ul>
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i
+            class="fab fa-facebook-square"></i>Like</button>
+      </div>
+    </nav>
+
+    <!--Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="container">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-4"><img src="assets/images/photos/photo-pates-1.jpg" class="d-block w-200" alt="pates1"
+                  class="img-responsive">
+              </div>
+              <div class="col-lg-4"><img src="assets/images/photos/photo-pizza-1.jpg" class="d-block w-200" alt="pizza1"
+                  class="img-responsive">
+              </div>
+              <div class="col-lg-4"><img src="assets/images/photos/photo-pizza-4.jpg" class="d-block w-200" alt="pizza4"
+                  class="img-responsive">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4"><img src="assets/images/photos/photo-pates-2.jpg" class="d-block w-200"
+                    alt="pates2" class="img-responsive">
                 </div>
-                </nav>
-        </main>  
+                <div class="col-lg-4"><img src="assets/images/photos/photo-pizza-2.jpg" class="d-block w-200"
+                    alt="pizza2" class="img-responsive">
+                </div>
+                <div class="col-lg-4"><img src="assets/images/photos/photo-pizza-3.jpg" class="d-block w-200"
+                    alt="pizza3" class="img-responsive">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4"><img src="assets/images/photos/photo-pizza-5.jpg" class="d-block w-200"
+                    alt="pizza5" class="img-responsive">
+                </div>
+                <div class="col-lg-4"><img src="assets/images/photos/photo-pizza-7.jpg" class="d-block w-200"
+                    alt="pizza7" class="img-responsive">
+                </div>
+                <div class="col-lg-4"><img src="assets/images/photos/photo-pizza-6.jpg" class="d-block w-200"
+                    alt="pizza6" class="img-responsive">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-4"><img src="assets/images/photos/photo-dessert-1.jpg" class="d-block w-200"
+                    alt="dessert1" class="img-responsive">
+                </div>
+                <div class="col-lg-4"><img src="assets/images/photos/photo-dessert-3.jpg" class="d-block w-200"
+                    alt="dessert3" class="img-responsive">
+                </div>
+                <div class="col-lg-4"><img src="assets/images/photos/photo-dessert-2.jpg" class="d-block w-200"
+                    alt="dessert2" class="img-responsive">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+            <div class="centered-pills">
+              <ul class="nav nav-pills" id="mainCarousel">
+                  <li class="active" data-target="#myCarousel" data-slide-to="0">
+                      <a data-toggle="tab" href="#">1</a>
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="1">
+                      <a data-toggle="tab" href="#">2</a>
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="2">
+                      <a data-toggle="tab" href="#">3</a>
+                  </li>
+                  <li data-target="#myCarousel" data-slide-to="3">
+                      <a data-toggle="tab" href="#">4</a>
+                  </li>
+              </ul>
+            </div>      
+          </div>
+        </div> 
+    </div>
+    <!--/Carousel-->
+  </main>
+  <footer>
+    <a href="#">Conditions d'utilisation</a>
+    <a href="#">Déclaration de confidentialité</a>
+    <a href="#">Politique d'utilisation des cookies</a>
+  </footer>
 </body>
+
 </html>
