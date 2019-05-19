@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Les restaurants</title>
     <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/restaurants.Css" rel="stylesheet" type="text/css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
+
 <body>
-        <header>
-            <div class=titre>Pizzai'Oli</div>
-        </header>
-        <main>
-            <nav class="navbar navbar-expand-lg navbar-custom bg-custom">
-                <a class="navbar-brand">Pizzai'Oli</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+    <!--Title+Banner-->
+    <header>
+        <div class=titre>Pizzai'Oli</div>
+    </header>
+    <!--/.Title+Banner-->
+    <main>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-custom bg-custom">
+            <a class="navbar-brand">Pizzai'Oli</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><i
+                    class="fas fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html" target="_blank">Accueil</a>
+                        <a class="nav-link" href="index.html">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="carte.html" target="_blank">Carte</a>
@@ -33,20 +42,94 @@
                         <a class="nav-link" href="photos.html" target="_blank">Photos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="restaurants.html">Restaurants</a>
+                        <a class="nav-link" href="restaurants.html" target="_blank">Restaurants</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html" target="_blank">Contact</a>
                     </li>
-                    </ul>
-                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fab fa-facebook-square"></i>Like</button>
+                </ul>
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i
+                        class="fab fa-facebook-square"></i>Like</button>
+            </div>
+        </nav>
+        <!--/.Navbar-->
+
+        <!--Adresses-->
+        <div class="container">
+            <div class="flex">
+                <div class="row">
+                    <!--Section: MAP 1-->
+                    <section class="map1">
+                        <!--Grid column-->
+                        <div class="col-lg-12 col-md-12">
+                            <!--Google map-->
+                            <div id="map-container-google-6" class="z-depth-1-half map-container-5"
+                                style="height: 400px">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.7268986611543!2d-117.72070888439266!3d33.99954792795188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c332b6df9c5245%3A0x488d30ad91da46f7!2sPizzaioli!5e0!3m2!1sfr!2sus!4v1558257558832!5m2!1sfr!2sus"
+                                    width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                            <br>
+                            <!--Buttons-->
+                            <div class="row text-center">
+                                <div class="col-md-6">
+                                    <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+                                    <p>3920 Grand Ave, Chino, CA 91710</p>
+                                    <p>United States</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+                                    <p>(909) 590-5454</p>
+                                    <p>Sun - Thu, 11:30-21:00</p>
+                                    <p>Fri - Sat, 11:30-22:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Grid column-->
+                    </section>
+                    <!--/.Section: MAP 1-->
+                    <!--Section: MAP 2-->
+                    <section class="map2">
+                        <!--Grid column-->
+                        <div class="col-lg-12 col-md-12">
+                            <!--Google map-->
+                            <div id="map-container-google-6" class="z-depth-1-half map-container-5"
+                                style="height: 400px">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.981442279244!2d-93.53788228417243!3d44.86267258139837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f61b84a721496f%3A0x33054d65f53a2c48!2sPizzaioli!5e0!3m2!1sfr!2sus!4v1558260758950!5m2!1sfr!2sus"
+                                    width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                            <br>
+                            <!--Buttons-->
+                            <div class="row text-center">
+                                <div class="col-md-6">
+                                    <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+                                    <p>588 W 78th St, Chanhassen, MN 55317</p>
+                                    <p>United States</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+                                    <p>(952) 949-9777</p>
+                                    <p>Sun 16:00-22:00</p>
+                                    <p>Tue - Thu, 11:00-22:00</p>
+                                    <p>Fri - Sat, 11:00-23:00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Grid column-->
+                    </section>
+                    <!--/.Section: MAP 2-->
                 </div>
-                </nav>
-        </main>
-        <footer>
-                <a href="#">Conditions d'utilisation</a>
-                <a href="#">Déclaration de confidentialité</a>
-                <a href="#">Politique d'utilisation des cookies</a>
-        </footer>
+            </div>
+        </div>
+        <!--/.Addresses-->
+
+    </main>
+    <footer>
+        <a href="#">Conditions d'utilisation</a>
+        <a href="#">Déclaration de confidentialité</a>
+        <a href="#">Politique d'utilisation des cookies</a>
+    </footer>
 </body>
+
 </html>
