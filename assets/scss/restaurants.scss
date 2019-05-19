@@ -55,8 +55,7 @@ and (max-width: 2560px) {
         margin-top: 10%;
         text-align: center;
         position: relative;
-    }
-    
+        }
     }
     footer {
         padding-bottom: 1%;
@@ -128,6 +127,16 @@ and (max-width: 1024px) {
             margin-left: 15%;
             margin-right: 15%;
         } 
+        .map1, .map2 {
+            margin-top: 5%;
+            margin-right: 1%;
+            margin-left: 1%;
+        .text-center {
+            margin-top: 10%;
+            text-align: center;
+            position: relative;
+            }
+        }
         .map-container-5 iframe {
             height: 100%;
             width: 100%;
@@ -205,6 +214,16 @@ and (max-width: 1024px) {
     }
     a {
         color: #e24f22;
+    }
+    .map1, .map2 {
+        margin-top: 5%;
+        margin-right: 1%;
+        margin-left: 1%;
+    .text-center {
+        margin-top: 10%;
+        text-align: center;
+        position: relative;
+        }
     }
     .map-container-5 iframe {
         height: 100%;

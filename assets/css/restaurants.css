@@ -140,6 +140,16 @@
     margin-left: 15%;
     margin-right: 15%;
   }
+  .map1, .map2 {
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  .map1 .text-center, .map2 .text-center {
+    margin-top: 10%;
+    text-align: center;
+    position: relative;
+  }
   .map-container-5 iframe {
     height: 100%;
     width: 100%;
@@ -223,6 +233,16 @@
   }
   a {
     color: #e24f22;
+  }
+  .map1, .map2 {
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  .map1 .text-center, .map2 .text-center {
+    margin-top: 10%;
+    text-align: center;
+    position: relative;
   }
   .map-container-5 iframe {
     height: 100%;
