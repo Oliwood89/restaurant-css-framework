@@ -39,7 +39,7 @@
     background: -o-linear-gradient(left, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     background: linear-gradient(to right, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cad22', endColorstr='#ff4444',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3cad22', endColorstr='#ff4444', GradientType=1);
     /* IE6-9 */
     width: 80%;
     margin-left: auto;
@@ -50,6 +50,9 @@
   }
   a {
     color: #e24f22;
+  }
+  img {
+    margin-right: 1%;
   }
   footer {
     padding-bottom: 1%;
@@ -118,7 +121,7 @@
     background: -o-linear-gradient(left, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     background: linear-gradient(to right, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cad22', endColorstr='#ff4444',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3cad22', endColorstr='#ff4444', GradientType=1);
     /* IE6-9 */
     width: 80%;
     margin-left: auto;
@@ -129,6 +132,11 @@
   }
   a {
     color: #e24f22;
+  }
+  img {
+    margin-right: 1%;
+    margin-top: 4%;
+    width: 100%;
   }
   footer {
     padding-bottom: 1%;
@@ -195,7 +203,7 @@
     background: -o-linear-gradient(left, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     background: linear-gradient(to right, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cad22', endColorstr='#ff4444',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3cad22', endColorstr='#ff4444', GradientType=1);
     /* IE6-9 */
     width: 100%;
     margin-left: auto;
@@ -206,6 +214,11 @@
   }
   a {
     color: #e24f22;
+  }
+  img {
+    margin-right: 1%;
+    margin-top: 4%;
+    width: 100%;
   }
   footer {
     padding-bottom: 1%;

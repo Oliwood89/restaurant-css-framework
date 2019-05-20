@@ -39,7 +39,7 @@
     background: -o-linear-gradient(left, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     background: linear-gradient(to right, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cad22', endColorstr='#ff4444',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3cad22', endColorstr='#ff4444', GradientType=1);
     /* IE6-9 */
     width: 80%;
     margin-left: auto;
@@ -51,12 +51,14 @@
   a {
     color: #e24f22;
   }
-  .map1, .map2 {
+  .map1,
+  .map2 {
     margin-top: 5%;
     margin-right: 1%;
     margin-left: 1%;
   }
-  .map1 .text-center, .map2 .text-center {
+  .map1 .text-center,
+  .map2 .text-center {
     margin-top: 10%;
     text-align: center;
     position: relative;
@@ -124,7 +126,7 @@
     background: -o-linear-gradient(left, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     background: linear-gradient(to right, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cad22', endColorstr='#ff4444',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3cad22', endColorstr='#ff4444', GradientType=1);
     /* IE6-9 */
     width: 80%;
     margin-left: auto;
@@ -140,12 +142,14 @@
     margin-left: 15%;
     margin-right: 15%;
   }
-  .map1, .map2 {
+  .map1,
+  .map2 {
     margin-top: 5%;
     margin-right: 1%;
     margin-left: 1%;
   }
-  .map1 .text-center, .map2 .text-center {
+  .map1 .text-center,
+  .map2 .text-center {
     margin-top: 10%;
     text-align: center;
     position: relative;
@@ -222,7 +226,7 @@
     background: -o-linear-gradient(left, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     background: linear-gradient(to right, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cad22', endColorstr='#ff4444',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3cad22', endColorstr='#ff4444', GradientType=1);
     /* IE6-9 */
     width: 100%;
     margin-left: auto;
@@ -234,12 +238,14 @@
   a {
     color: #e24f22;
   }
-  .map1, .map2 {
+  .map1,
+  .map2 {
     margin-top: 5%;
     margin-right: 1%;
     margin-left: 1%;
   }
-  .map1 .text-center, .map2 .text-center {
+  .map1 .text-center,
+  .map2 .text-center {
     margin-top: 10%;
     text-align: center;
     position: relative;

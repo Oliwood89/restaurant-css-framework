@@ -12,10 +12,16 @@
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link href="assets/css/photos.css" rel="stylesheet" type="text/css">
   <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
 </head>
 
 <body>
@@ -54,92 +60,56 @@
     </nav>
     <!--/.Navbar-->
 
-    <!--Carousel-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="container">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-lg-4"><img src="assets/images/photos/photo-pates-1.jpg" class="d-block w-200" alt="pates1"
-                  class="img-responsive">
-              </div>
-              <div class="col-lg-4"><img src="assets/images/photos/photo-pizza-1.jpg" class="d-block w-200" alt="pizza1"
-                  class="img-responsive">
-              </div>
-              <div class="col-lg-4"><img src="assets/images/photos/photo-pizza-4.jpg" class="d-block w-200" alt="pizza4"
-                  class="img-responsive">
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-lg-4"><img src="assets/images/photos/photo-pates-2.jpg" class="d-block w-200"
-                    alt="pates2" class="img-responsive">
-                </div>
-                <div class="col-lg-4"><img src="assets/images/photos/photo-pizza-2.jpg" class="d-block w-200"
-                    alt="pizza2" class="img-responsive">
-                </div>
-                <div class="col-lg-4"><img src="assets/images/photos/photo-pizza-3.jpg" class="d-block w-200"
-                    alt="pizza3" class="img-responsive">
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-lg-4"><img src="assets/images/photos/photo-pizza-5.jpg" class="d-block w-200"
-                    alt="pizza5" class="img-responsive">
-                </div>
-                <div class="col-lg-4"><img src="assets/images/photos/photo-pizza-7.jpg" class="d-block w-200"
-                    alt="pizza7" class="img-responsive">
-                </div>
-                <div class="col-lg-4"><img src="assets/images/photos/photo-pizza-6.jpg" class="d-block w-200"
-                    alt="pizza6" class="img-responsive">
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-lg-4"><img src="assets/images/photos/photo-dessert-1.jpg" class="d-block w-200"
-                    alt="dessert1" class="img-responsive">
-                </div>
-                <div class="col-lg-4"><img src="assets/images/photos/photo-dessert-3.jpg" class="d-block w-200"
-                    alt="dessert3" class="img-responsive">
-                </div>
-                <div class="col-lg-4"><img src="assets/images/photos/photo-dessert-2.jpg" class="d-block w-200"
-                    alt="dessert2" class="img-responsive">
-                </div>
-              </div>
-            </div>
-          </div>
+    <!--Pagination photos-->
+
+    <section class="container">
+
+
+      <div class="tab-content container" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-page1" role="tabpanel" aria-labelledby="pills-page1-tab">
+          <img src="assets/images/photos/photo-pates-1.jpg" alt="pates1" class="img-responsive">
+          <img src="assets/images/photos/photo-pizza-1.jpg" alt="pizza1" class="img-responsive">
+          <img src="assets/images/photos/photo-pizza-4.jpg" alt="pizza4" class="img-responsive">
+        </div>
+        <div class="tab-pane fade" id="pills-page2" role="tabpanel" aria-labelledby="pills-page2-tab">
+          <img src="assets/images/photos/photo-pizza-2.jpg" alt="pizza2" class="img-responsive">
+          <img src="assets/images/photos/photo-pates-2.jpg" alt="pates2" class="img-responsive">
+          <img src="assets/images/photos/photo-pizza-3.jpg" alt="pizza3" class="img-responsive">
+        </div>
+        <div class="tab-pane fade" id="pills-page3" role="tabpanel" aria-labelledby="pills-page3-tab">
+          <img src="assets/images/photos/photo-pizza-7.jpg" alt="pizza7" class="img-responsive">
+          <img src="assets/images/photos/photo-pizza-6.jpg" alt="pizza6" class="img-responsive">
+          <img src="assets/images/photos/photo-pizza-5.jpg" alt="pizza5" class="img-responsive">
+        </div>
+        <div class="tab-pane fade" id="pills-page4" role="tabpanel" aria-labelledby="pills-page4-tab">
+          <img src="assets/images/photos/photo-dessert-1.jpg" alt="dessert1" class="img-responsive">
+          <img src="assets/images/photos/photo-dessert-3.jpg" alt="dessert3" class="img-responsive">
+          <img src="assets/images/photos/photo-dessert-2.jpg" alt="dessert2" class="img-responsive">
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="centered-pills">
-            <ul class="nav nav-pills" id="mainCarousel">
-              <li class="active" data-target="#myCarousel" data-slide-to="0">
-                <a data-toggle="tab" href="#">1</a>
-              </li>
-              <li data-target="#myCarousel" data-slide-to="1">
-                <a data-toggle="tab" href="#">2</a>
-              </li>
-              <li data-target="#myCarousel" data-slide-to="2">
-                <a data-toggle="tab" href="#">3</a>
-              </li>
-              <li data-target="#myCarousel" data-slide-to="3">
-                <a data-toggle="tab" href="#">4</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--/Carousel-->
+
+      <ul class="nav nav-pills mb-3  justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-page1-tab" data-toggle="pill" href="#pills-page1" role="tab"
+            aria-controls="pills-page1" aria-selected="true">1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-page2-tab" data-toggle="pill" href="#pills-page2" role="tab"
+            aria-controls="pills-page2" aria-selected="false">2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-page3-tab" data-toggle="pill" href="#pills-page3" role="tab"
+            aria-controls="pills-page" aria-selected="false">3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-page4-tab" data-toggle="pill" href="#pills-page4" role="tab"
+            aria-controls="pills-page4" aria-selected="false">4</a>
+        </li>
+      </ul>
+    </section>
+
+    <!--/.Pagination photos-->
+
   </main>
   <footer>
     <a href="#">Conditions d'utilisation</a>

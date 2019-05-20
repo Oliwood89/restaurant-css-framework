@@ -39,7 +39,7 @@
     background: -o-linear-gradient(left, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     background: linear-gradient(to right, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cad22', endColorstr='#ff4444',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3cad22', endColorstr='#ff4444', GradientType=1);
     /* IE6-9 */
     width: 80%;
     margin-left: auto;
@@ -152,7 +152,7 @@
     background: -o-linear-gradient(left, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     background: linear-gradient(to right, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cad22', endColorstr='#ff4444',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3cad22', endColorstr='#ff4444', GradientType=1);
     /* IE6-9 */
     width: 80%;
     margin-left: auto;
@@ -260,7 +260,7 @@
     background: -o-linear-gradient(left, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     background: linear-gradient(to right, #3cad22 0%, #ffffff 51%, #ff4444 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3cad22', endColorstr='#ff4444',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3cad22', endColorstr='#ff4444', GradientType=1);
     /* IE6-9 */
     width: 100%;
     margin-left: auto;
