@@ -1,4 +1,4 @@
-#Projet d'un site en Bootstrap#
+#Projet d'un site en Bootstrap
 
 Le but de ce projet était de réaliser le site vitrine d'une franchise de restaurants.
 
@@ -9,7 +9,7 @@ Le site doit être responsive : Au moins pour les smartphones (xs) et pour les t
 Nous devions réaliser minimum 5 pages accessibles par une barre de navigation (navbar) présente sur toutes les
 pages et menant aux différentes rubriques : Accueil, Carte, Photos, Restaurants, Contact.
 
-##Composition du site##
+##Composition du site
 
 En utilisant Bootsrap, nous devions placer des éléments spécifiques sur chacune des pages. A savoir :
 
@@ -44,7 +44,7 @@ Comme dit plus haut, nous devions réaliser ce projet à l'aide de Bootstrap, qu
 Cette collection contient entre autre des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs.
 
 
-###Ce que ce projet m'a appris :###
+###Ce que ce projet m'a appris :
 
 - Être le plus sémantique possible (Eviter de mettre trop de div [Bien que parfois on n'a pas trop le choix d'en avoir..] )
 - Utiliser Bootstrap
@@ -52,7 +52,7 @@ Cette collection contient entre autre des codes HTML et CSS, des formulaires, bo
         selon le périphérique de consultation utilisé.
 - Bien sûr être organisé dans la réalisation des cinq pages du site.
             
-###Le site en responsive :###
+###Le site en responsive :
 
 
 Voici le site du restaurant en responsive, c'est-à-dire adapté sur les différents supports demandés, à savoir le support tablette et le support smartphone.
@@ -70,7 +70,7 @@ Voici le site du restaurant en responsive, c'est-à-dire adapté sur les différ
     <img src = "https://image.noelshack.com/fichiers/2019/21/2/1558466690-site-xs.png" title = "site-xs" alt = "site-responsive">
 
 
-###Problèmes rencontrés :###
+###Problèmes rencontrés :
 
 Les seules problèmes que j'ai rencontré lors de la réalisation de ce projet sont :
         
