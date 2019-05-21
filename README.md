@@ -75,8 +75,8 @@ Voici le site du restaurant en responsive, c'est-à-dire adapté sur les différ
 Les seules problèmes que j'ai rencontré lors de la réalisation de ce projet sont :
         
 - La galerie photos.
-            Au départ j'étais parti sur l'idée d'un carousel et je demandais comment c'était possible d'inclure la pagniation dessus.
-            Finalement la réalisation était plus simple que je ne le pensais, mais néanmoins j'ai perdu pas mal dde temps là-dessus.
+            Au départ j'étais parti sur l'idée d'un carousel et je demandais comment c'était possible d'inclure la pagination dessus.
+            Finalement la réalisation était plus simple que je ne le pensais, mais néanmoins j'ai perdu pas mal de temps là-dessus.
             
 - La liste des menus.
 
