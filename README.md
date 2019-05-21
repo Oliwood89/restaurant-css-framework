@@ -59,7 +59,7 @@ Voici le site du restaurant en responsive, c'est-à-dire adapté sur les différ
 
 - Le site sur ordinateur :
 
-    <img src = "https://image.noelshack.com/fichiers/2019/21/2/1558467928-site-xl.png" title = "site-xl" alt = "site-responsive">
+    <img src = "https://zupimages.net/up/19/21/bbte.png" title = "site-xl" alt = "site-responsive">
 
 - Le site sur tablette :
 
